@@ -50,8 +50,8 @@ class Business:
             print(item.quantity,"", item.name,":",(item.itemTotal))
             totalPrice = totalPrice + item.itemTotal
             salesTax = salesTax + item.salesTax
-            print("Sales Tax: ",round(salesTax,2))
-            print("Total: ",round(totalPrice,2))
+        print("Sales Tax: ",round(salesTax,2))
+        print("Total: ",round(totalPrice,2))
         
 itemList=[]
 while True:
